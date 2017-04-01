@@ -1,0 +1,9 @@
+.userul li{
+	
+	list-style-type:none;
+	display:inline-block;
+
+}
+.userul {
+	width:500px;
+}

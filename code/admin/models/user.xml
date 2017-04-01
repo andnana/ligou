@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<input name="username" type="unique" msg="用户名已经存在"/>
+	<input name="username" type="length" value="3,20" msg="用户名必须在3-20个字符之间"/>
+
+</form>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<input name="companyname" type="length" value="3-50" msg="公司名称必须在3-50个字符之间!"/>
+	<input name="name" type="length" value="2-20" msg="姓名必须在2-20个字符之间"/>
+	<input name="address" type="length" value="3-50" msg="地址必须在3-50个字符之间"/>
+	<input name="phone" type="number" msg="手机号必须为数字"/>
+	<input name="phone" type="number" value="11" msg="手机号必须为11个数字"/>
+	<input name="email" type="email" msg="电子邮件格式不正确"/>
+	<input name="message" type="length" value="3," msg="留言信息必须为3个字符或以上"/>
+	
+</form>

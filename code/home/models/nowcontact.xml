@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+
+	<input name="email" type="email" msg="电子邮件格式不正确"/>
+	<input name="message" type="length" value="3," msg="留言信息必须在3个字符以上"/>
+	
+</form>

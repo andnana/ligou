@@ -1,0 +1,1 @@
+<?php {"pri":"id","0":"title","1":"picname","2":"uedittext","3":"introduct"}yes

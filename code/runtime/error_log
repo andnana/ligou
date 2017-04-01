@@ -1,0 +1,176 @@
+[05-Nov-2016 15:05:41] PHP Warning:  array_fill() [<a href='function.array-fill'>function.array-fill</a>]: Number of elements must be positive in C:\AppServ\www\code\brophp\bases\db.class.php on line 176
+[05-Nov-2016 15:05:41] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in C:\AppServ\www\code\brophp\bases\db.class.php on line 176
+[05-Nov-2016 15:05:47] PHP Parse error:  syntax error, unexpected T_VARIABLE in C:\AppServ\www\code\runtime\controls\code_index_php\common.class.php on line 6
+[05-Nov-2016 15:05:55] PHP Parse error:  syntax error, unexpected T_VARIABLE in C:\AppServ\www\code\runtime\controls\code_index_php\common.class.php on line 6
+[05-Nov-2016 15:06:01] PHP Parse error:  syntax error, unexpected T_VARIABLE in C:\AppServ\www\code\runtime\controls\code_index_php\common.class.php on line 6
+[05-Nov-2016 15:07:05] PHP Parse error:  syntax error, unexpected T_VARIABLE in C:\AppServ\www\code\runtime\controls\code_index_php\common.class.php on line 6
+[05-Nov-2016 15:08:10] PHP Parse error:  syntax error, unexpected T_VARIABLE in C:\AppServ\www\code\runtime\controls\code_index_php\indexaction.class.php on line 6
+[05-Nov-2016 15:08:13] PHP Parse error:  syntax error, unexpected T_VARIABLE in C:\AppServ\www\code\runtime\controls\code_index_php\indexaction.class.php on line 6
+[05-Nov-2016 15:08:24] PHP Parse error:  syntax error, unexpected T_VARIABLE in C:\AppServ\www\code\runtime\controls\code_index_php\indexaction.class.php on line 6
+[05-Nov-2016 15:24:52] PHP Warning:  array_fill() [<a href='function.array-fill'>function.array-fill</a>]: Number of elements must be positive in C:\AppServ\www\code\brophp\bases\db.class.php on line 176
+[05-Nov-2016 15:24:52] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in C:\AppServ\www\code\brophp\bases\db.class.php on line 176
+[05-Nov-2016 15:24:56] PHP Warning:  array_fill() [<a href='function.array-fill'>function.array-fill</a>]: Number of elements must be positive in C:\AppServ\www\code\brophp\bases\db.class.php on line 176
+[05-Nov-2016 15:24:56] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in C:\AppServ\www\code\brophp\bases\db.class.php on line 176
+[05-Nov-2016 15:28:55] PHP Fatal error:  Uncaught exception 'SmartyException' with message 'property 'msg' does not exist.' in C:\AppServ\www\code\brophp\libs\sysplugins\smarty_internal_templatebase.php:798
+Stack trace:
+#0 [internal function]: Smarty_Internal_TemplateBase->__call('getMsg', Array)
+#1 C:\AppServ\www\code\runtime\controls\code_admin_php\baseinfoaction.class.php(197): BaseinfoAction->getMsg()
+#2 [internal function]: BaseinfoAction->footersave()
+#3 C:\AppServ\www\code\brophp\bases\action.class.php(30): call_user_func(Array)
+#4 C:\AppServ\www\code\brophp\brophp.php(150): Action->run()
+#5 C:\AppServ\www\code\admin.php(5): require('C:\AppServ\www\...')
+#6 {main}
+  thrown in C:\AppServ\www\code\brophp\libs\sysplugins\smarty_internal_templatebase.php on line 798
+[05-Nov-2016 15:29:01] PHP Fatal error:  Uncaught exception 'SmartyException' with message 'property 'msg' does not exist.' in C:\AppServ\www\code\brophp\libs\sysplugins\smarty_internal_templatebase.php:798
+Stack trace:
+#0 [internal function]: Smarty_Internal_TemplateBase->__call('getMsg', Array)
+#1 C:\AppServ\www\code\runtime\controls\code_admin_php\baseinfoaction.class.php(197): BaseinfoAction->getMsg()
+#2 [internal function]: BaseinfoAction->footersave()
+#3 C:\AppServ\www\code\brophp\bases\action.class.php(30): call_user_func(Array)
+#4 C:\AppServ\www\code\brophp\brophp.php(150): Action->run()
+#5 C:\AppServ\www\code\admin.php(5): require('C:\AppServ\www\...')
+#6 {main}
+  thrown in C:\AppServ\www\code\brophp\libs\sysplugins\smarty_internal_templatebase.php on line 798
+[05-Nov-2016 15:30:08] PHP Fatal error:  Uncaught exception 'SmartyException' with message 'property 'msg' does not exist.' in C:\AppServ\www\code\brophp\libs\sysplugins\smarty_internal_templatebase.php:798
+Stack trace:
+#0 [internal function]: Smarty_Internal_TemplateBase->__call('getMsg', Array)
+#1 C:\AppServ\www\code\runtime\controls\code_admin_php\baseinfoaction.class.php(197): BaseinfoAction->getMsg()
+#2 [internal function]: BaseinfoAction->footersave()
+#3 C:\AppServ\www\code\brophp\bases\action.class.php(30): call_user_func(Array)
+#4 C:\AppServ\www\code\brophp\brophp.php(150): Action->run()
+#5 C:\AppServ\www\code\admin.php(5): require('C:\AppServ\www\...')
+#6 {main}
+  thrown in C:\AppServ\www\code\brophp\libs\sysplugins\smarty_internal_templatebase.php on line 798
+[05-Nov-2016 15:30:13] PHP Fatal error:  Uncaught exception 'SmartyException' with message 'property 'msg' does not exist.' in C:\AppServ\www\code\brophp\libs\sysplugins\smarty_internal_templatebase.php:798
+Stack trace:
+#0 [internal function]: Smarty_Internal_TemplateBase->__call('getMsg', Array)
+#1 C:\AppServ\www\code\runtime\controls\code_admin_php\baseinfoaction.class.php(197): BaseinfoAction->getMsg()
+#2 [internal function]: BaseinfoAction->footersave()
+#3 C:\AppServ\www\code\brophp\bases\action.class.php(30): call_user_func(Array)
+#4 C:\AppServ\www\code\brophp\brophp.php(150): Action->run()
+#5 C:\AppServ\www\code\admin.php(5): require('C:\AppServ\www\...')
+#6 {main}
+  thrown in C:\AppServ\www\code\brophp\libs\sysplugins\smarty_internal_templatebase.php on line 798
+[05-Nov-2016 15:30:32] PHP Fatal error:  Uncaught exception 'SmartyException' with message 'property 'msg' does not exist.' in C:\AppServ\www\code\brophp\libs\sysplugins\smarty_internal_templatebase.php:798
+Stack trace:
+#0 [internal function]: Smarty_Internal_TemplateBase->__call('getMsg', Array)
+#1 C:\AppServ\www\code\runtime\controls\code_admin_php\baseinfoaction.class.php(197): BaseinfoAction->getMsg()
+#2 [internal function]: BaseinfoAction->footersave()
+#3 C:\AppServ\www\code\brophp\bases\action.class.php(30): call_user_func(Array)
+#4 C:\AppServ\www\code\brophp\brophp.php(150): Action->run()
+#5 C:\AppServ\www\code\admin.php(5): require('C:\AppServ\www\...')
+#6 {main}
+  thrown in C:\AppServ\www\code\brophp\libs\sysplugins\smarty_internal_templatebase.php on line 798
+[05-Nov-2016 15:31:17] PHP Fatal error:  Uncaught exception 'SmartyException' with message 'property 'msg' does not exist.' in C:\AppServ\www\code\brophp\libs\sysplugins\smarty_internal_templatebase.php:798
+Stack trace:
+#0 [internal function]: Smarty_Internal_TemplateBase->__call('getMsg', Array)
+#1 C:\AppServ\www\code\runtime\controls\code_admin_php\baseinfoaction.class.php(197): BaseinfoAction->getMsg()
+#2 [internal function]: BaseinfoAction->footersave()
+#3 C:\AppServ\www\code\brophp\bases\action.class.php(30): call_user_func(Array)
+#4 C:\AppServ\www\code\brophp\brophp.php(150): Action->run()
+#5 C:\AppServ\www\code\admin.php(5): require('C:\AppServ\www\...')
+#6 {main}
+  thrown in C:\AppServ\www\code\brophp\libs\sysplugins\smarty_internal_templatebase.php on line 798
+[05-Dec-2016 11:03:10 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[05-Dec-2016 11:03:11 PRC] PHP Notice:  Undefined index: content in D:\phpStudy\WWW\code\runtime\comps\default\code_index_php\42e4512b3c268283b74d9e50c7ba504bdb6bd668.file.index.tpl.php on line 106
+[05-Dec-2016 11:03:32 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[05-Dec-2016 11:03:36 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[05-Dec-2016 11:03:38 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[05-Dec-2016 11:03:40 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[05-Dec-2016 11:03:41 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[05-Dec-2016 11:03:41 PRC] PHP Notice:  Undefined index: content in D:\phpStudy\WWW\code\runtime\comps\default\code_index_php\42e4512b3c268283b74d9e50c7ba504bdb6bd668.file.index.tpl.php on line 106
+[05-Dec-2016 11:03:43 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[05-Dec-2016 11:03:43 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[05-Dec-2016 11:03:49 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[05-Dec-2016 11:03:49 PRC] PHP Notice:  Undefined index: content in D:\phpStudy\WWW\code\runtime\comps\default\code_index_php\42e4512b3c268283b74d9e50c7ba504bdb6bd668.file.index.tpl.php on line 106
+[05-Dec-2016 11:03:55 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[05-Dec-2016 11:03:58 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[05-Dec-2016 11:09:50 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[05-Dec-2016 11:09:50 PRC] PHP Notice:  Undefined index: content in D:\phpStudy\WWW\code\runtime\comps\default\code_index_php\42e4512b3c268283b74d9e50c7ba504bdb6bd668.file.index.tpl.php on line 106
+[05-Dec-2016 11:09:53 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[05-Dec-2016 11:09:54 PRC] PHP Notice:  Undefined index: content in D:\phpStudy\WWW\code\runtime\comps\default\code_index_php\42e4512b3c268283b74d9e50c7ba504bdb6bd668.file.index.tpl.php on line 106
+[05-Dec-2016 11:10:45 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[05-Dec-2016 11:10:53 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[05-Dec-2016 11:10:55 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[05-Dec-2016 11:10:55 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[05-Dec-2016 11:11:08 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[05-Dec-2016 11:11:08 PRC] PHP Notice:  Undefined index: content in D:\phpStudy\WWW\code\runtime\comps\default\code_index_php\42e4512b3c268283b74d9e50c7ba504bdb6bd668.file.index.tpl.php on line 106
+[23-Dec-2016 10:00:36 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:00:37 PRC] PHP Notice:  Undefined index: content in D:\phpStudy\WWW\code\runtime\comps\default\code_index_php\42e4512b3c268283b74d9e50c7ba504bdb6bd668.file.index.tpl.php on line 106
+[23-Dec-2016 10:01:08 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:01:11 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:01:13 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:01:14 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:01:27 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:01:30 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:01:31 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:02:16 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:02:17 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:07:40 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:07:41 PRC] PHP Notice:  Undefined index: content in D:\phpStudy\WWW\code\runtime\comps\default\code_index_php\42e4512b3c268283b74d9e50c7ba504bdb6bd668.file.index.tpl.php on line 106
+[23-Dec-2016 10:07:42 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:07:42 PRC] PHP Notice:  Undefined variable: ascii in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 74
+[23-Dec-2016 10:07:42 PRC] PHP Notice:  Uninitialized string offset: 4 in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 100
+[23-Dec-2016 10:07:54 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:07:54 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:07:59 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:07:59 PRC] PHP Notice:  Undefined index: content in D:\phpStudy\WWW\code\runtime\comps\default\code_index_php\42e4512b3c268283b74d9e50c7ba504bdb6bd668.file.index.tpl.php on line 106
+[23-Dec-2016 10:08:00 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:08:00 PRC] PHP Notice:  Undefined variable: ascii in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 74
+[23-Dec-2016 10:08:00 PRC] PHP Notice:  Uninitialized string offset: 4 in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 100
+[23-Dec-2016 10:10:00 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:10:00 PRC] PHP Notice:  Undefined index: content in D:\phpStudy\WWW\code\runtime\comps\default\code_index_php\42e4512b3c268283b74d9e50c7ba504bdb6bd668.file.index.tpl.php on line 106
+[23-Dec-2016 10:10:01 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:10:01 PRC] PHP Notice:  Undefined variable: ascii in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 74
+[23-Dec-2016 10:10:01 PRC] PHP Notice:  Uninitialized string offset: 4 in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 100
+[23-Dec-2016 10:10:10 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:10:10 PRC] PHP Notice:  Undefined variable: ascii in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 74
+[23-Dec-2016 10:10:10 PRC] PHP Notice:  Uninitialized string offset: 4 in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 100
+[23-Dec-2016 10:11:09 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:11:09 PRC] PHP Notice:  Undefined variable: ascii in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 74
+[23-Dec-2016 10:11:09 PRC] PHP Notice:  Uninitialized string offset: 4 in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 100
+[23-Dec-2016 10:11:58 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:11:58 PRC] PHP Notice:  Undefined variable: ascii in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 74
+[23-Dec-2016 10:11:58 PRC] PHP Notice:  Uninitialized string offset: 4 in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 100
+[23-Dec-2016 10:11:59 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:11:59 PRC] PHP Notice:  Undefined variable: ascii in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 74
+[23-Dec-2016 10:11:59 PRC] PHP Notice:  Uninitialized string offset: 4 in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 100
+[23-Dec-2016 10:11:59 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:11:59 PRC] PHP Notice:  Undefined variable: ascii in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 74
+[23-Dec-2016 10:11:59 PRC] PHP Notice:  Uninitialized string offset: 4 in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 100
+[23-Dec-2016 10:12:00 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:12:00 PRC] PHP Notice:  Undefined variable: ascii in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 74
+[23-Dec-2016 10:12:00 PRC] PHP Notice:  Uninitialized string offset: 4 in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 100
+[23-Dec-2016 10:12:00 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:12:00 PRC] PHP Notice:  Undefined variable: ascii in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 74
+[23-Dec-2016 10:12:00 PRC] PHP Notice:  Uninitialized string offset: 4 in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 100
+[23-Dec-2016 10:12:01 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:12:01 PRC] PHP Notice:  Undefined variable: ascii in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 74
+[23-Dec-2016 10:12:01 PRC] PHP Notice:  Uninitialized string offset: 4 in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 100
+[23-Dec-2016 10:12:53 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:12:54 PRC] PHP Notice:  Undefined index: content in D:\phpStudy\WWW\code\runtime\comps\default\code_index_php\42e4512b3c268283b74d9e50c7ba504bdb6bd668.file.index.tpl.php on line 106
+[23-Dec-2016 10:12:55 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:12:55 PRC] PHP Notice:  Undefined variable: ascii in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 74
+[23-Dec-2016 10:12:55 PRC] PHP Notice:  Uninitialized string offset: 4 in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 100
+[23-Dec-2016 10:12:59 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:12:59 PRC] PHP Notice:  Undefined variable: ascii in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 74
+[23-Dec-2016 10:12:59 PRC] PHP Notice:  Uninitialized string offset: 4 in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 100
+[23-Dec-2016 10:13:00 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:13:00 PRC] PHP Notice:  Undefined variable: ascii in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 74
+[23-Dec-2016 10:13:00 PRC] PHP Notice:  Uninitialized string offset: 4 in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 100
+[23-Dec-2016 10:13:12 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:13:13 PRC] PHP Notice:  Undefined index: content in D:\phpStudy\WWW\code\runtime\comps\default\code_index_php\42e4512b3c268283b74d9e50c7ba504bdb6bd668.file.index.tpl.php on line 106
+[23-Dec-2016 10:13:13 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:13:13 PRC] PHP Notice:  Undefined variable: ascii in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 74
+[23-Dec-2016 10:13:13 PRC] PHP Notice:  Uninitialized string offset: 4 in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 100
+[23-Dec-2016 10:13:13 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:13:13 PRC] PHP Notice:  Undefined variable: ascii in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 74
+[23-Dec-2016 10:13:13 PRC] PHP Notice:  Uninitialized string offset: 4 in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 100
+[23-Dec-2016 10:13:50 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:13:50 PRC] PHP Notice:  Undefined variable: ascii in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 74
+[23-Dec-2016 10:13:50 PRC] PHP Notice:  Uninitialized string offset: 4 in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 100
+[23-Dec-2016 10:16:50 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:16:51 PRC] PHP Notice:  Undefined index: content in D:\phpStudy\WWW\code\runtime\comps\default\code_index_php\42e4512b3c268283b74d9e50c7ba504bdb6bd668.file.index.tpl.php on line 106
+[23-Dec-2016 10:16:52 PRC] PHP Strict Standards:  Declaration of Mytpl::clearCache() should be compatible with that of Smarty::clearCache() in D:\phpStudy\WWW\code\brophp\bases\mytpl.class.php on line 13
+[23-Dec-2016 10:16:52 PRC] PHP Notice:  Undefined variable: ascii in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 74
+[23-Dec-2016 10:16:52 PRC] PHP Notice:  Uninitialized string offset: 4 in D:\phpStudy\WWW\code\brophp\classes\vcode.class.php on line 100
